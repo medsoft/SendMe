@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="355dp"
+    android:background="@drawable/list"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textclose"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:text="X"
+        android:background="@drawable/cerclebackground"
+        android:textStyle="bold"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="end"
+        android:textColor="@color/goodgray"
+        android:gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/valid"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good Job  "
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/goodgray"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+
+            />
+        <TextView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:text="Vous recevrez votre argent des que l'entreprise aura valider votre prestation.Veuillez consulter vos prestations pour ne rater auncun detail "
+            android:textColor="@color/goodgray"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="normal"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok j'ai compris "
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonlogoutmodel"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.NewContratActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="journée chargée"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text=" Ajouter le contrat afin qu'on vous paye apres validation de l'entreprise  dans 5 jours  "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vert1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextEntreprise"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_work_pink"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Nom Entreprise"
+            android:padding="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextDateDebut"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_date"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Date de debut "
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextDateFin"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_date"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Date de fin  "
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextHeureDebut"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_timer"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Heure de debut "
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextHeureFin"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_timer"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Heure de fin  "
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Valider "
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@drawable/buttonchoice"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

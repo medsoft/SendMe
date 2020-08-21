@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="275dp"
+    android:background="@color/colorPrimaryDark"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textclose"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:text="X"
+        android:background="@drawable/cerclebackground"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+
+        />
+
+        <LinearLayout
+            android:layout_marginTop="30sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Bien Joué!"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="30px"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Clique maintenant Sur me connecter pour voir les missions et commenceer a gagner de l'argent. "
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me connecter "
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonchoice3"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            />
+
+
+
+
+
+
+</LinearLayout>

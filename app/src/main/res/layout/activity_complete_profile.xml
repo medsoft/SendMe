@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CompleteProfileActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Completer votre profil"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text=" Ajouter des informations pour nous aider a vous octroyer plus de missions   "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vert1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_phone_orange"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Telephone"
+            android:padding="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextRib"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_rib"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Rib"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextSiret"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_siret"
+            android:textColor="@color/vert5"
+            android:textColorHint="@color/vert5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Numero de siret "
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Valider "
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@drawable/buttonchoice"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

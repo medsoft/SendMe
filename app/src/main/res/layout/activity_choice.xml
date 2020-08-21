@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ChoiceActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="70dp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Staff"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text=" vous propose des missions en interim tous les jours .Postulez et commencez a gagner de l'argent "
+            android:textColor="@color/colorWhite"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S'inscrire"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/buttonchoice3">
+
+            </Button>
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Se Connecter"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/buttonchoice3">
+            </Button>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
